@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <main>
       <Header onMenuClick={handleMenuClick} />
-      <Menu />
+      <Menu open={showMenu} setOpen={setShowMenu} />
       <div className='flex min-h-screen flex-col items-center justify-center p-8'>
         <Title variant='h1'>Inicio</Title>
       </div>
